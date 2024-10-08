@@ -1,3 +1,5 @@
 # time_machine
 
-A new Flutter project.
+Uses Archive.org's wayback machine API to display any web url in the selected year.
+
+
