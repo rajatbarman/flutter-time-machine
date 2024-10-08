@@ -1,0 +1,28 @@
+name: time_machine
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.8.1
+  rive: ^0.13.14
+  webview_flutter: ^4.9.0
+  flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/machine.png
+    - assets/images/machine-on.png
+    - assets/animations/first.riv
+    - assets/images/logo.svg
+  uses-material-design: true
